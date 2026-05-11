@@ -2,6 +2,8 @@
 
 - It Gives Type Safety.
 
+# Chapter 1 : Basics
+
 ## SetUP
 
 - `install typescript`
@@ -20,3 +22,5 @@ if u do this still your file transpiled to js with message Type 'string' is not 
 var a = 9;
 a = "Hello"
 ```
+
+# Chapter 2: Configuration
