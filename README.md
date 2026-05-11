@@ -4,14 +4,14 @@
 
 # Chapter 1 : Basics
 
-** SetUP **
+**SetUP**
 
 - `install typescript`
   - npm i typscript -g
 - `check version`
   - tsc -v
 
-** How to run ts file **
+**How to run ts file**
 
 - tsc app.ts
   - it will create app.js file
@@ -25,6 +25,6 @@ a = "Hello"
 
 # Chapter 2: Configuration
 
-** What is Transpiled? **
+**What is Transpiled?**
 
 `Transpilation describes the process of converting one high-level programming language into another high-level language  at a similar level of abstraction.`
