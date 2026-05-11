@@ -1,4 +1,4 @@
-# <h1 style="color: red">Typescript</h1>
+# <font style="color: red">Typescript</h1>
 
 - It Gives Type Safety.
 
