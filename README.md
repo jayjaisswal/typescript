@@ -1,4 +1,4 @@
-# Typescript
+# <h1 style="color: red">Typescript</h1>
 
 - It Gives Type Safety.
 
@@ -16,7 +16,7 @@
 - tsc app.ts
   - it will create app.js file
 
-if u do this still your file transpiled to js with message Type 'string' is not assignable to type 'number'.
+`If u do this still your file transpiled to js with message Type 'string' is not assignable to type 'number'.`
 
 ```bash
 var a = 9;
