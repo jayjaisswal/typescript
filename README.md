@@ -162,6 +162,22 @@ UserRoles.GUEST; // "guest"
   }
   ```
 
+**Type inference:**  TypeScript can infer the type of a variable based on the value assigned to it.
+
+`let x;` // Type "any" infered by typescript
+
+**Type annotation :** we can explicitly specify the type of a variable.
+`let y: Number;`// y is of type Number
+
+`let z: String | Number;` // z can be of type String or Number
+
+```
+function num(s: Number, t: Number): Number {
+    return s ;
+  
+}
+```
+
 ## ✅ Key Takeaways
 
 - **Primitives** → stored in stack, independent copies.
@@ -170,3 +186,5 @@ UserRoles.GUEST; // "guest"
 - **Enums** → named constants.
 - **Any vs Unknown** → `any` skips type checking, `unknown` requires type checks.
 - **Void** → functions with no return value.
+
+# Chapter 4: Interface(like face)
