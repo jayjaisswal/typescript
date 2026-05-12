@@ -74,3 +74,15 @@ function greet(): void {
     console.log("Hello World");
 }
 
+
+// Type inference -> TypeScript can infer the type of a variable based on the value assigned to it
+let x; // any infered by typescript
+
+// Type annotation -> we can explicitly specify the type of a variable
+let y: Number; // y is of type Number 
+let z: String | Number; // z can be of type String or Number
+
+function num(s: Number, t: Number): Number {
+    return s ;
+    
+}
