@@ -39,8 +39,8 @@ a = "Hello"
 # TypeScript Notes 📝
 
 ## 📌 Primitive Types
-- **Number**  
-  ```ts
+ **Number**  
+  ```bash
   let c: Number = 12;
   ```
 - **String**  
