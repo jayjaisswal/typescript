@@ -36,7 +36,7 @@ a = "Hello"
 
 # Chapter 3: Types
 
-## 📌 Primitive Types
+##  Primitive Types
   **Number**
    ```ts
   let c: Number = 12;
