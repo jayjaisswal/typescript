@@ -35,4 +35,42 @@ q.pop();
 // order matters in tupples
 let tupluu:[Number, String] = [1,"Hello"];
 
+// enum -> enum is a way to define a set of named constants
+enum UserRoles {
+    ADMIN = "admin",
+    USER = "user",
+    GUEST = "guest"
+}
+
+UserRoles.ADMIN; // "admin"
+UserRoles.USER; // "user"
+UserRoles.GUEST; // "guest"
+
+// any type
+let j; // j is of type any and can hold any type of data
+
+// unknown type
+let k: unknown; // k is of type unknown and can hold any type of data but we need to check the type before using it
+
+k = 12;
+k="Hello";
+k=true;
+
+// we need to check the type of k before using it
+if(typeof k === "number"){
+    console.log(k);
+}
+
+if(typeof k === "string"){
+    console.log(k.toUpperCase());
+}
+
+if(typeof k === "boolean"){
+    console.log(k);
+}
+
+// void
+function greet(): void {
+    console.log("Hello World");
+}
 
