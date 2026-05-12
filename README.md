@@ -35,11 +35,10 @@ a = "Hello"
 2. run tsc -w
 
 # Chapter 3: Types
-```markdown
-# TypeScript Notes 📝
 
 ## 📌 Primitive Types
-  Number 
+  **Number**
+   ```ts
   let c: Number = 12;
   ```
 - **String**  
