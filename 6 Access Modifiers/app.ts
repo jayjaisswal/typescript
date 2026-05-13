@@ -60,3 +60,22 @@ class Car {
 
 let c1 = new Car("BMW");   // BMW
 c1.changeName();           // jay
+
+
+// readonly
+class Car1 {
+   
+   constructor(public readonly name:string){
+    this.name = name;
+   }
+
+
+  //  now cannot change the name property because it is readonly
+  //  changeName(){
+  //   this.name = "jay"
+  //  }
+
+}
+
+let c = new Car1("BMW");   // BMW
+// c1.changeName();           // jay
